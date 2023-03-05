@@ -805,8 +805,7 @@ ul {
      
   }
 
-    .modal-close:hover,
-    .modal-close:focus {
+    .modal-close:hover {
         background: var(--main-color-default);
         fill: var(--color-close-btn-hover);
        
@@ -961,8 +960,9 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 24px 120px;
 }
-.btn-form-send:hover,
-.btn-form-send:focus {
+
+.btn-form-send:hover
+ {
   background: var(--main-color-default);
 }
 .user-message:placeholder-shown {
