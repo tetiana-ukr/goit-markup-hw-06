@@ -901,12 +901,14 @@ ul {
  
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
  }
- .form-element:not(:last-child) {
-  margin-bottom: 8px;
+ 
+ .form-element:nth-child(4) {
+  margin-bottom: 16px;
  }
+
  .form-element label {
   margin-bottom: 4px; /* відстань від name до input */
  }
